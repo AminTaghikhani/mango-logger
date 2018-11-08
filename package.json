@@ -1,6 +1,6 @@
 {
   "name": "mango-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mango Logger",
   "main": "index.js",
   "scripts": {    
@@ -11,6 +11,10 @@
     "Js",
     "Logger"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AminTaghikhani/mango-logger.git"
+  },
   "author": {
     "name": "Amin Taghikhani",
     "email": "amin76taghikhani@gmail.com",
