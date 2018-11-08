@@ -1,3 +1,6 @@
+# mango-logger
+Mango Logger
+
 ## Install
 
 ```bash
