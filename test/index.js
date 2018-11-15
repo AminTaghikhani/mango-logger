@@ -9,7 +9,13 @@ try {
     LOGGER.toFile('test', 'sdf', error)
 }
 
-LOGGER.objToFile('test', 'error', {
-    a: 123,
-    b: 'asd'
-})
+// LOGGER.objToFile('test', 'error', {
+//     a: 123,
+//     b: 'asd'
+// })
+var code = 5
+var e = {code:5};
+LOGGER.objToFile('code','info', {
+    code,
+    uCode: e.code,
+  });
